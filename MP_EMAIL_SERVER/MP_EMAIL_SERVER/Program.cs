@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Net;
 using System.Net.Mail;
 using System.Net.Sockets;
@@ -39,10 +39,7 @@ namespace MP_EMAIL_SERVER
     ,
                 IsBodyHtml = true,
             };
-            //mailMessage.To.Add("carter.brett@sbs.org ");
-            //mailMessage.To.Add("luca.riggs@sbs.org");
-            mailMessage.To.Add("julie.salam@sbs.org");
-            //carter.brett@sbs.org 
+            mailMessage.To.Add("new");
             verificationEMAIL.Send(mailMessage);
 
         }
@@ -75,10 +72,6 @@ namespace MP_EMAIL_SERVER
             verificationEMAIL.Send(mailMessage);
             Console.WriteLine("SENT VERIFICATION TO: " + RECIEVING_EMAIL + " TYPE: " + TYPE_OF_MAIL);
 
-            //var attachment = new Attachment("/Users/dennisyilmaz/Projects/MP_EMAIL_SERVER/MP_EMAIL_SERVER/images/logo.png", MediaTypeNames.Image.Jpeg);
-            //mailMessage.Attachments.Add(attachment);
-            //verificationEMAIL.Send("dy.testingemail@gmail.com", "spernatounited@icloud.com", "MassPass Verification",
-            //"MassPass authentication code : ");
         }
 
         static void printstatus(String printable)
@@ -91,32 +84,22 @@ namespace MP_EMAIL_SERVER
         {
             TcpListener server = null;
 
-                // Set the TcpListener on port 13000.
                 Int32 port = 13000;
-                IPAddress localAddr = IPAddress.Parse("0.0.0.0");
+                IPAddress localAddr = IPAddress.Parse("0.0.0.0"); // local
 
-                // TcpListener server = new TcpListener(port);
                 server = new TcpListener(localAddr, port);
 
-                // Start listening for client requests.
                 server.Start();
 
-                // Buffer for reading data
                 Byte[] bytes = new Byte[256];
                 String data = null;
 
-                // Enter the listening loop.
                 while (true)
                 {
                     Console.WriteLine("test");
                     Console.Write("Waiting for a connection... ");
 
-                    // Perform a blocking call to accept requests.
-                    // You could also use server.AcceptSocket() here.
                     TcpClient client = server.AcceptTcpClient();
-                    
-                    //server.AcceptSocket();
-
                     Console.WriteLine("recieved");
 
                     data = null;
