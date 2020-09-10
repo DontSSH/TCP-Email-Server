@@ -1,0 +1,11 @@
+/Users/dennisyilmaz/Projects/MP_EMAIL_SERVER/MP_EMAIL_SERVER/bin/Debug/netcoreapp3.1/MP_EMAIL_SERVER.deps.json
+/Users/dennisyilmaz/Projects/MP_EMAIL_SERVER/MP_EMAIL_SERVER/bin/Debug/netcoreapp3.1/MP_EMAIL_SERVER.runtimeconfig.json
+/Users/dennisyilmaz/Projects/MP_EMAIL_SERVER/MP_EMAIL_SERVER/bin/Debug/netcoreapp3.1/MP_EMAIL_SERVER.runtimeconfig.dev.json
+/Users/dennisyilmaz/Projects/MP_EMAIL_SERVER/MP_EMAIL_SERVER/bin/Debug/netcoreapp3.1/MP_EMAIL_SERVER.dll
+/Users/dennisyilmaz/Projects/MP_EMAIL_SERVER/MP_EMAIL_SERVER/bin/Debug/netcoreapp3.1/MP_EMAIL_SERVER.pdb
+/Users/dennisyilmaz/Projects/MP_EMAIL_SERVER/MP_EMAIL_SERVER/obj/Debug/netcoreapp3.1/MP_EMAIL_SERVER.AssemblyInfoInputs.cache
+/Users/dennisyilmaz/Projects/MP_EMAIL_SERVER/MP_EMAIL_SERVER/obj/Debug/netcoreapp3.1/MP_EMAIL_SERVER.AssemblyInfo.cs
+/Users/dennisyilmaz/Projects/MP_EMAIL_SERVER/MP_EMAIL_SERVER/obj/Debug/netcoreapp3.1/MP_EMAIL_SERVER.csproj.CoreCompileInputs.cache
+/Users/dennisyilmaz/Projects/MP_EMAIL_SERVER/MP_EMAIL_SERVER/obj/Debug/netcoreapp3.1/MP_EMAIL_SERVER.dll
+/Users/dennisyilmaz/Projects/MP_EMAIL_SERVER/MP_EMAIL_SERVER/obj/Debug/netcoreapp3.1/MP_EMAIL_SERVER.pdb
+/Users/dennisyilmaz/Projects/MP_EMAIL_SERVER/MP_EMAIL_SERVER/obj/Debug/netcoreapp3.1/MP_EMAIL_SERVER.genruntimeconfig.cache
