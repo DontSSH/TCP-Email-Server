@@ -26,13 +26,13 @@ namespace MP_EMAIL_SERVER
             var verificationEMAIL = new SmtpClient("smtp.gmail.com")
             {
                 Port = 587,
-                Credentials = new NetworkCredential("dy.testingemail@gmail.com", "Batuhan2020!"),
+                Credentials = new NetworkCredential("REDACTED", "REDACTED"),
                 EnableSsl = true,
             };
 
             var mailMessage = new MailMessage
             {
-                From = new MailAddress("dy.testingemail@gmail.com"),
+                From = new MailAddress("REDACTED"),
                 Subject = "Welcone!",
                 Body = "<h1><center>Hello! You are now enrolled in the CLOSED BETA for MassPass!</center></h1>" +
     "<h1 style='text-align:center;'><span style='color: #ffffff;'><strong><span style='background-color: #ff0000;font-size:15px;'>‎ ‏‏‎ MassPass ‏‏‎  ‏‏‎  </span></strong></span></h1>" // Mass Pass Tab
@@ -54,13 +54,13 @@ namespace MP_EMAIL_SERVER
             var verificationEMAIL = new SmtpClient("smtp.gmail.com")
             {
                 Port = 587,
-                Credentials = new NetworkCredential("dy.testingemail@gmail.com", "Batuhan2020!"),
+                Credentials = new NetworkCredential("REDACTED", "REDACTED"),
                 EnableSsl = true,
             };
 
             var mailMessage = new MailMessage
             {
-                From = new MailAddress("dy.testingemail@gmail.com"),
+                From = new MailAddress("REDACTED"),
                 Subject = "MassPass Verification",
                 Body = "<h1><center>Verification Code : </center></h1>" +
                 "<h2 style='font-family:'Courier New':font-size:100px;><center>" + code + "</center></h2>" +
